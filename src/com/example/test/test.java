@@ -8,10 +8,11 @@ public class test {
     public static void main(String[] args) {
         String string1 = "KOPASUS";
         String string2 = "JAMAICA";
-        String prefix = "";
 
+        //melakukan reverse untuk kata yang pertama
         string1 = reverse(string1);
         StringBuilder sb1 = new StringBuilder();
+
         //membuat string menjadi char dan menambahkan koma
         for (char c : string1.toCharArray()) {
             sb1.append(c).append(",");
@@ -21,10 +22,10 @@ public class test {
             sb1.deleteCharAt( sb1.length() - 1 );
         System.out.println(sb1);
 
-
-
+        //melakukan reverse untuk kata yang kedua
         string2 = reverse(string2);
         StringBuilder sb2 = new StringBuilder();
+
         //membuat string menjadi char dan menambahkan koma
         for (char c2 : string2.toCharArray()) {
             sb2.append(c2).append(",");
