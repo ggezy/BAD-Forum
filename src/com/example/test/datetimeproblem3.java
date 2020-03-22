@@ -10,7 +10,7 @@ public class datetimeproblem3 {
     public static void main(String[] args) throws ParseException {
         Locale waktuIndonesia = new Locale("id", "ID");
         SimpleDateFormat formatTanggal = new SimpleDateFormat("dd MMMM yyyy HH:mm", waktuIndonesia);
-        SimpleDateFormat formatHari = new SimpleDateFormat("dd/MM/yyyy hh:mm aa", waktuIndonesia);
+        SimpleDateFormat formatHari = new SimpleDateFormat("dd/MM/yyyy h:mm aa", waktuIndonesia);
         Scanner in = new Scanner(System.in);
 
         try {
